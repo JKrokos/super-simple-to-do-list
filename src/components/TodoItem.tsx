@@ -17,7 +17,7 @@ interface TodoItemProps {
 export const TodoItem = ({ todo, onUpdateState, onDelete }: TodoItemProps) => {
   const user = USERS.find((u) => u.id === todo.userId);
   const previousState =
-    todo.state === TODO_STATES.TODO ? TODO_STATES.DONE : TODO_STATES.ONGOING;
+    todo.state === TODO_STATES.ONGOING ? TODO_STATES.TODO : TODO_STATES.ONGOING;
   const nextState =
     todo.state === TODO_STATES.TODO ? TODO_STATES.ONGOING : TODO_STATES.DONE;
 

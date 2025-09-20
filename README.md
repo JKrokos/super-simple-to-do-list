@@ -1,6 +1,8 @@
 # Super Simple To Do List
 
-A clean and simple todo app built with Next.js and TypeScript.
+A clean and simple todo app built with Next.js and TypeScript. Features a beautiful Kanban-style board with drag-free task management, user assignment, and persistent local storage. Perfect for personal productivity or small team task tracking.
+
+![Super Simple To Do List](super-simple-to-do-list.webp)
 
 ## Features
 
